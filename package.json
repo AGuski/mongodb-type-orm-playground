@@ -14,7 +14,11 @@
     "ts-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
-    "@types/node": "latest"
+    "@types/node": "latest",
+    "typeorm": "latest",
+    "reflect-metadata": "latest",
+    "mongodb": "latest"
+    
   },
   "engines": {
     "node": "12.x"

@@ -1,15 +1,12 @@
-class HelloClass {
-  private name = "";
+import {createConnection} from "typeorm";
 
-  constructor(name: string) {
-    this.name = name;
-  }
+console.log('starting ...');
 
-  sayHello() {
-    return `Hello, ${this.name}`;
-  }
-}
-
-const hello = new HelloClass("Alex");
-
-console.log(hello.sayHello());
+const connection = await createConnection({
+    type: "mongodb",
+    host: "cluster0.33pph.mongodb.net",
+    port: 3306,
+    username: "thestoreroomguy",
+    password: "d8ZU1zj1aSL7Vnd5",
+    database: "myFirstDatabase"
+});
