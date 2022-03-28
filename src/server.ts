@@ -1,7 +1,6 @@
 class HelloClass {
-  
-  private name = '';
-  
+  private name = "";
+
   constructor(name: string) {
     this.name = name;
   }
@@ -11,3 +10,6 @@ class HelloClass {
   }
 }
 
+const hello = new HelloClass("Alex");
+
+console.log(hello.sayHello());
