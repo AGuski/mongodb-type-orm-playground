@@ -1,7 +1,7 @@
 {
-  "name": "glitch-hello-node",
+  "name": "mongodb-type-orm-playground",
   "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
+  "description": "A simple mongoDB / TypeORM testing app.",
   "main": "server.ts",
   "scripts": {
     "start": "ts-node src/server.ts"
@@ -20,11 +20,8 @@
     "mongodb": "latest"
     
   },
-  "engines": {
-    "node": "12.x"
-  },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+    "url": "https://github.com/AGuski/mongodb-type-orm-playground.git"
   },
   "license": "MIT",
   "keywords": [
