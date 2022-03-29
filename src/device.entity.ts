@@ -3,14 +3,17 @@ import { Entity, ObjectID, ObjectIdColumn, Column, BaseEntity } from "typeorm"
 @Entity()
 export class Device extends BaseEntity {
     @ObjectIdColumn()
-    id: ObjectID
+    _id: string;
 
     @Column()
-    name: string
+    name: string;
 
     @Column()
-    price: number
+    price: number;
 
     @Column()
-    weight: number
+    weight: number;
+
+    @Column()
+    activated: boolean = true;
 }
